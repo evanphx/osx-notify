@@ -1,0 +1,5 @@
+A tiny wrapper for OS X notifications, to make them more ruby like.
+
+So trivial maybe I shouldn't have written it, oh well.
+
+ - Evan Phoenix
