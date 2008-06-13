@@ -1,6 +1,8 @@
 require 'osx-notify'
 
-OSX::Notify.on "TestNotify" do |opts|
+OSX::NSApplication.sharedApplication
+
+which = OSX::Notify.on "TestNotify" do |opts|
   p opts[:reason]
 end
 
